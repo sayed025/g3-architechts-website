@@ -27,6 +27,12 @@
     color: #727272;
 }
 
+.section-title {
+    font-size: 2.8rem;
+    color: var(--dark-01, #131313);
+    font-weight: 700;
+}
+
 /* header styles */
 
 header {
@@ -56,11 +62,7 @@ nav li a {
     color: var(--dark-02, #424242);
 }
 
-.nav-title {
-    font-size: 2.8rem;
-    color: var(--dark-01, #131313);
-    font-weight: 700;
-}
+
 
 .banner-content {
     max-width: 800px;
@@ -140,6 +142,7 @@ main {
     .team-img-container {
         grid-template-columns: 1fr;
     }
+
     .team-content {
         padding-right: 20px;
         padding-left: 20px;
